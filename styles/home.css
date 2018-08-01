@@ -1,0 +1,239 @@
+#user-small
+{
+	width: 400px;
+	height: 240px;
+}
+#andromeda-small
+{
+	width: 400px;
+	height: 240px;
+}
+#hof-small
+{
+	width: 370px;
+	height: 240px;
+	margin: 15px;
+}
+
+#hof-large
+{
+	width: 380px;
+	margin-right: 45px;
+	margin-left: 45px;
+	margin-bottom: 45px;
+}
+
+#hof-large-menu
+{
+	width: 380px;
+	height: 40px;
+	margin-left: 0px;
+}
+.hofLink
+{
+	display:block;
+	background-color: #466D94;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	/*width: 110px;*/
+	height: 28px;
+	float:left;
+	margin-top: 0px;
+	
+	padding-right: 8px;
+	padding-left: 8px;
+	
+	text-align:center;
+	
+	border-color:#263543;	
+	border-style: solid;
+	border-top-width:2px;
+	border-bottom-width:2px;
+	border-left-width:2px;
+	border-right-width:2px; 
+	
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	
+	opacity:0.8;
+}
+.hofLink:hover
+{
+	opacity:1;
+}
+
+#log-small
+{
+	display:block;
+	width: 370px;
+	height: 240px;
+	overflow-y : scroll;
+	margin: 15px;
+}
+
+#news-small
+{
+	width: 370px;
+	height: 80px;
+	background-color: #38434E;
+	opacity:0.90;
+	margin-top: -10px;
+	overflow-y : scroll;
+}
+
+.news-date
+{
+	color: #81B7F2;
+	float:left
+}
+
+.news-content
+{
+	
+}
+
+.stat
+{
+	width: 340px;
+	height: 38px;
+	padding-left: 40px;
+}
+
+.stat-left
+{
+	float:left;
+	background-color: #687786;
+	opacity:0.90;
+	
+	text-align: center;
+	
+	width: 130px;
+	height: 25px;
+	
+	padding-top: 5px;
+	
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.stat-right
+{
+	float:left;
+	background-color: #38434E;
+	opacity:0.90;
+	
+	color: #81B7F2;
+	
+	text-align: center;
+	
+	width: 190px;
+	height: 25px;
+	
+	margin-top: 4px;
+	margin-left: 0px;
+	
+	padding-top: 6px;
+	
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.logtime
+{
+	color: #81B7F2;
+}
+
+.logmessage
+{
+	margin-left: 15px;
+}
+
+.top10item0
+{
+	background-color: #687786;
+	opacity:0.90;
+	width: 370px;
+	height: 20px;
+	padding-top: 2px;
+}
+
+.top10item1
+{
+	background-color: #38434E;
+	opacity:0.90;
+	width: 370px;
+	height: 20px;
+	padding-top: 2px;
+}
+
+.top10index
+{
+	float:left;
+	width: 20px;
+	color: #81B7F2;
+}
+
+.top10company
+{
+	float:left;
+	width: 25px;
+	text-align: center;
+}
+
+.top10grade
+{
+	float:left;
+	width: 25px;
+	text-align: center;
+}
+
+.top10username
+{
+	float:left;
+	width: 215px;
+	text-align: center;
+}
+
+.top10points
+{
+	color: #81B7F2;
+	text-align: right;
+	float:left;
+	width: 80px;
+}
+
+ul.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+ul.tabs li{
+	background: #49647E;
+	color: #222;
+	display: inline-block;
+	padding: 5px 10px;
+	cursor: pointer;
+	border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+ul.tabs li.current{
+	background: #ededed;
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: none;
+	padding: 0px;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
